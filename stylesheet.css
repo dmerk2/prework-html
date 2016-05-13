@@ -4,21 +4,24 @@
 		
 		font-weight:lighter;
 		line-height:100px;
-		font-kerning:; 
 	}
 	h1{
 		font-size:50px;
 		font-weight:lighter;
 		font-family: 'Diplomata SC', cursive;
-	}
-	h2{
 		text-align:center;
+		color:darkblue;
+	}
+	a{
+		position:center;
 		font-family: 'Lora', cursive;
+		font-size:30px;
 	}
 	h3{
 		background-color: black;
 		color: white;
 		font-family: 'Amatic SC', cursive;
+		text-align:center;
 	}
 
 	.not:hover{
@@ -28,10 +31,22 @@
 
 	.whatever:hover{
 		color:white;
+
 	}
 
 	.the:hover{
 		color:red;
-		font-family:'helveca', arial;
+		font-family:'Lora', arial;
 	}
 
+	.btn{
+		float:right;
+		font-size:30px;
+		color:blue;
+	}
+
+    img{
+		position:absolute;
+		right:20px;
+		top:20px;
+	}
